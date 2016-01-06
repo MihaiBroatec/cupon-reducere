@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Cupon_Reducere>
+            <version>0.1.0</version>
+        </Cupon_Reducere>
+    </modules>
+    <frontend>
+        <routers>
+            <Cupon_Reducere_SomeFreeRouterName1>
+                <use>standard</use>
+                <args>
+                    <module>Cupon_Reducere</module>
+                    <frontName>cupon-reducere</frontName>
+                </args>
+            </Cupon_Reducere_SomeFreeRouterName1>
+        </routers>
+        <layout>
+            <updates>
+                <Cupon_Reducere>
+                    <file>cupon_reducere.xml</file>
+                </Cupon_Reducere>
+            </updates>
+        </layout>
+    </frontend>
+<!--    <global>
+        <blocks>
+            <bubu> this is a class group
+                <class>Mihai_Project_Block</class>
+            </bubu>
+        </blocks>
+        <blocks>
+            <test>
+                <class>Mihai_Project_Block</class>
+            </test>
+        </blocks>
+    </global>-->
+</config>

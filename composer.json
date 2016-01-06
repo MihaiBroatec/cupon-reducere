@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+           "type": "vcs",
+                   
+           "url": "https://github.com/MihaiMagento/cupon-reducere"
+        }
+    ],
+    "require": {
+        
+        "cupon-reducere": "1.9.2.2"
+    },
+    "extra": {
+        "magento-root-dir": "./",
+        "magento-deploystrategy": "copy"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
+
+
+
